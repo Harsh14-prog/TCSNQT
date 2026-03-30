@@ -1,4 +1,3 @@
-package Arrays;
 
 import java.util.*;
 
@@ -27,11 +26,11 @@ public class RelativeSortArray {
                     result[idx++] = num;
                 }
 
-                mp.remove(num);
+                mp.remove(num);   // so that we can get only remaining ele i.e ele which are not in arr2 in mp
             }
         }
 
-        // Step 3: Remaining elements
+        // Step 3: Remaining elements , only remainign ele are left in map after remove
         List<Integer> remaining = new ArrayList<>();
 
         for (int key : mp.keySet()) {
