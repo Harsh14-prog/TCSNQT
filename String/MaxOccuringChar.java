@@ -6,7 +6,6 @@ import java.util.Map;
 public class MaxOccuringChar {
     public static void main(String[] args) {
         String s = "samplestring";
-        int n = s.length();
 
         Map <Character , Integer>  mp = new HashMap<>();
 

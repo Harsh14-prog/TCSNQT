@@ -49,8 +49,8 @@ public class AddEleInArray {
     public static void main(String[] args) {
         int[] nums = {1, 2, 3, 4, 5};
 
-        int[] res1 = insertBeginning(nums, 10);
-        int[] res2 = insertAtEnd(nums, 20);
+        // int[] res1 = insertBeginning(nums, 10);
+        // int[] res2 = insertAtEnd(nums, 20);
         int[] res3 = insertAtPosition(nums, 99, 3);
 
         // Print
